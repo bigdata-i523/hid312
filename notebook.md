@@ -9,6 +9,7 @@
 * Attended Online meeting w/ TAs
 * Discussed set up of pyenv, Paper 1, and Project
 * Worked on setting up GitHub notebook
+* 9-11: Attended Online Meeting discussing LaTex, Jabref, github
   
 # Practice
 
@@ -20,10 +21,13 @@
 # Theory
 
 * Viewed Motivation for Course Videos through Computing Model
+* 9-11: Viewed Viewed Powerpoint of Overview of Health/Medical Informatics
   
 # Writing
   
 * Selected topic for Paper 1
 * Viewed video on how to write a research paper
 * Began searching for sources for paper
+* 9-11: Downloaded LaTex and Jabref
+* 
   
