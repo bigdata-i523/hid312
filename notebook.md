@@ -21,7 +21,8 @@
 # Theory
 
 * Viewed Motivation for Course Videos through Computing Model
-* 9-11: Viewed Viewed Powerpoint of Overview of Health/Medical Informatics
+* 9-11: Viewed Powerpoint of Overview of Health/Medical Informatics
+* 9-15: Viewed Motivation for Course through Data Science Education
   
 # Writing
   
@@ -29,5 +30,5 @@
 * Viewed video on how to write a research paper
 * Began searching for sources for paper
 * 9-11: Downloaded LaTex and Jabref
-* 
+
   
