@@ -17,6 +17,7 @@
 * Installed virtualbox, and set up virtual machine w/ Ubuntu
 * set up pyenv and python 2 and 3
 * Learning Linux shell via tutorial
+* 9-16: Continued to practice Linux shell via tutorial.
   
 # Theory
 
@@ -30,5 +31,6 @@
 * Viewed video on how to write a research paper
 * Began searching for sources for paper
 * 9-11: Downloaded LaTex and Jabref
+* 9-15: Did research for paper 1, collected sources.
 
   
