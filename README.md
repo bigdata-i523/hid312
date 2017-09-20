@@ -9,8 +9,8 @@
 ```
 owner:
     hid: 312
-    name: 
-    url: 
+    name: Eliason, Neil
+    url: https://github.com/bigdata-i523/hid312
 ```
 
 # Paper 1
