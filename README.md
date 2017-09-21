@@ -18,13 +18,11 @@ owner:
 ```
 paper1:
    author: 
-   - Gregor von Laszewski
-   - Fugang Wang
+   - Neil Eliason
    hid:
-   - 000
-   - 001
-   title: This is my paper about xyz
-   abstract: This paper showcases tis and that and the other
+   - 312
+   title: An Overview of Big Data Applications in Mental Health Treatment
+   abstract: Mental health treatment presents with complex informational challenges, which could be effectively tackled with big data techniques. However, as researchers and treatment providers explored these applications, they found a lack of infrastructure and ethical concerns to hamper their progress.
    url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
 ```
    
@@ -33,12 +31,12 @@ paper1:
 ```
 paper2:
    author: 
-   - Gregor von Laszewski
+   - Neil Eliason
    hid:
-   - 000
-   title: This is my paper about the other abc
-   abstract: This paper showcases tis and that and the other in regards to abc
-   url: https://github.com/bigdata-i523/sample-hid000/paper2/paper2.pdf   
+   - 312
+   title: To be decided
+   abstract: To be decided
+   url: To be provided when paper started
 ```
 
 # Project 
