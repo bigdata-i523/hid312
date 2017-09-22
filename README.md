@@ -24,7 +24,7 @@ paper1:
       However, as researchers and treatment providers explored these 
       applications, they found a lack of infrastructure and ethical concerns 
       to hamper their progress.
-   url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
+   url: 
 ```
    
 # Paper 2
@@ -42,8 +42,6 @@ paper2:
 
 # Project 
 
-We will assign new pids for you when we approve the project and reports   
-Just use one type and delete the line with 
 
 ```
 
