@@ -1,12 +1,15 @@
-# hid312
+# Comments
+
+* Mind the ```quotes and do not forget them```. Please do not delete the quotes, and keep the #
+* Remove all sections that you have not yet worked on. 
 
 # Owner
 
 ```
 owner:
-    hid: 312
-    name: Eliason, Neil
-    url: https://github.com/bigdata-i523/hid312
+    hid: 000
+    name: Gregor von Laszewski
+    url: https://github.com/bigdata-i523/sample-hid000
 ```
 
 # Paper 1
@@ -14,19 +17,16 @@ owner:
 ```
 paper1:
    author: 
-   - Neil Eliason
+   - Gregor von Laszewski
+   - Fugang Wang
    hid:
-   - 312
-   title: An Overview of Big Data Applications in Mental Health Treatment
-   abstract: >
-      Mental health treatment presents with complex informational
-      challenges, which could be effectively tackled with big data techniques. 
-      However, as researchers and treatment providers explored these 
-      applications, they found a lack of infrastructure and ethical concerns 
-      to hamper their progress.
-   url: https://github.com/bigdata-i523/hid312/blob/master/Paper1.tex
-   type: LaTex
-   status:10%
+   - 000
+   - 001
+   title: This is my paper about xyz
+   abstract: This paper showcases this and that and the other
+   url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
+   type: latex
+   status: in progress
 ```
    
 # Paper 2
@@ -34,30 +34,33 @@ paper1:
 ```
 paper2:
    author: 
-   - Neil Eliason
+   - Gregor von Laszewski
    hid:
-   - 312
-   title: TBD
-   abstract: TBD
-   url: To be provided when paper started
-   type: LaTex
-   status: 0%
+   - 000
+   title: This is my paper about the other abc
+   abstract: This paper showcases this and that and the other in regards to abc
+   url: https://github.com/bigdata-i523/sample-hid000/paper2/paper2.pdf   
+   type: word
+   status: in progress
 ```
 
 # Project 
 
+We will assign new pids for you when we approve the project and reports   
+Just use one type and delete the line with 
 
 ```
 project:
    type: project
    type: report
    author: 
-   - Neil Eliason
-   hid:
-   - 312
-   title: TBD
-   abstract: TBD
-   url: To be provided when paper started
-   status: 0%
+   - Gregor von Laszewski
+   pid:
+   - 000
+   title: Benchmarking a BigData Docker deployment
+   abstract: This paper showcases tis and that and the other 
+   url: https://github.com/bigdata-i523/sample-pid000/project/report.pdf
+   type: latex
+   status: in progress
 ```
    
