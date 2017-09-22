@@ -25,6 +25,8 @@ paper1:
       applications, they found a lack of infrastructure and ethical concerns 
       to hamper their progress.
    url: 
+   type: LaTex
+   status:10%
 ```
    
 # Paper 2
@@ -35,15 +37,27 @@ paper2:
    - Neil Eliason
    hid:
    - 312
-   title: To be decided
-   abstract: To be decided
+   title: TBD
+   abstract: TBD
    url: To be provided when paper started
+   type: LaTex
+   status: 0%
 ```
 
 # Project 
 
 
 ```
-
+project:
+   type: project
+   type: report
+   author: 
+   - Neil Eliason
+   hid:
+   - 312
+   title: TBD
+   abstract: TBD
+   url: To be provided when paper started
+   status: 0%
 ```
    
