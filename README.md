@@ -24,7 +24,7 @@ paper1:
       However, as researchers and treatment providers explored these 
       applications, they found a lack of infrastructure and ethical concerns 
       to hamper their progress.
-   url: 
+   url: https://github.com/bigdata-i523/hid312/blob/master/Paper1.tex
    type: LaTex
    status:10%
 ```
