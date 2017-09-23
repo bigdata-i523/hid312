@@ -18,7 +18,7 @@ paper1:
    hid:
    - 312
    title: An Overview of Big Data Applications in Mental Health Treatment
-   abstract: >
+   abstract: 
       Mental health treatment presents with complex informational
       challenges, which could be effectively tackled with big data techniques. 
       However, as researchers and treatment providers explored these 
