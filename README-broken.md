@@ -5,7 +5,7 @@
 ```
 owner:
     hid: 312
-    name: Eliason, Neil
+    name: Neil Eliason
     url: https://github.com/bigdata-i523/hid312
 ```
 
