@@ -8,7 +8,7 @@
 ```
 owner:
     hid: 312
-    name: 
+    name: Neil
     url: https://github.com/bigdata-i523/sample-hid000
 ```
 
