@@ -7,8 +7,8 @@
 
 ```
 owner:
-    hid: 000
-    name: Gregor von Laszewski
+    hid: 312
+    name: 
     url: https://github.com/bigdata-i523/sample-hid000
 ```
 
@@ -16,8 +16,8 @@ owner:
 
 ```
 paper1:
-   author: 
-   - Gregor von Laszewski
+   author: Neil
+   - 
    - Fugang Wang
    hid:
    - 000
