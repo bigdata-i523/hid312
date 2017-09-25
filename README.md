@@ -8,24 +8,24 @@
 ```
 owner:
     hid: 312
-    name: Neil
-    url: https://github.com/bigdata-i523/sample-hid000
+    name: Neil Eliason
+    url: https://github.com/bigdata-i523/hid312
 ```
 
 # Paper 1
 
 ```
 paper1:
-   author: Neil
-   - 
-   - Fugang Wang
-   hid:
+   author: Neil Eliason
+   hid: 312
    - 000
-   - 001
-   title: This is my paper about xyz
-   abstract: This paper showcases this and that and the other
-   url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
-   type: latex
+   title: An Overview of Big Data Applications in Mental Health Treatment
+   abstract: >
+   Mental health treatment presents with complex informational challenges, 
+   which could be effectively tackled with   big data techniques. However, 
+   as researchers and treatment providers explore these applications, they 
+   find a lack of infrastructure and ethical concerns hamper their progress.
+   url: 
    status: in progress
 ```
    
