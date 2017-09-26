@@ -25,7 +25,8 @@ paper1:
    which could be effectively tackled with   big data techniques. However, 
    as researchers and treatment providers explore these applications, they 
    find a lack of infrastructure and ethical concerns hamper their progress.
-   url: 
+   url: https://github.com/bigdata-i523/hid312/paper1
+   type: latex
    status: in progress
 ```
    
@@ -34,13 +35,13 @@ paper1:
 ```
 paper2:
    author: 
-   - Gregor von Laszewski
+   - Neil Eliason
    hid:
-   - 000
-   title: This is my paper about the other abc
-   abstract: This paper showcases this and that and the other in regards to abc
-   url: https://github.com/bigdata-i523/sample-hid000/paper2/paper2.pdf   
-   type: word
+   - 312
+   title: To be decided
+   abstract: To be decided
+   url: To be decided
+   type: latex
    status: in progress
 ```
 
