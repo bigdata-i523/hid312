@@ -8,14 +8,15 @@
 ```
 owner:
     hid: 312
-    name: Neil
-    url: https://github.com/bigdata-i523/sample-hid000
+    name: Neil Eliason
+    url: https://github.com/bigdata-i523/hid312
 ```
 
 # Paper 1
 
 ```
 paper1:
+<<<<<<< HEAD
    author: 
    - Neil
    hid:
@@ -24,6 +25,18 @@ paper1:
    abstract: >
        This paper showcases this and that and the other
    url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
+=======
+   author: Neil Eliason
+   hid: 312
+   - 000
+   title: An Overview of Big Data Applications in Mental Health Treatment
+   abstract: >
+   Mental health treatment presents with complex informational challenges, 
+   which could be effectively tackled with   big data techniques. However, 
+   as researchers and treatment providers explore these applications, they 
+   find a lack of infrastructure and ethical concerns hamper their progress.
+   url: https://github.com/bigdata-i523/hid312/paper1
+>>>>>>> 469d78e146570f0fd66dc85220d033fef03a4ab4
    type: latex
    status: in progress
 ```
@@ -33,6 +46,7 @@ paper1:
 ```
 paper2:
    author: 
+<<<<<<< HEAD
    - Neil
    hid:
    - 312
@@ -42,25 +56,31 @@ paper2:
    url: https://github.com/bigdata-i523/sample-hid000/paper2/paper2.pdf
    type: word
    status: in progress
+=======
+   - Neil Eliason
+   hid:
+   - 312
+   title: To be decided
+   abstract: To be decided
+   url: To be decided
+   type: latex
+   status: not yet started
+>>>>>>> 469d78e146570f0fd66dc85220d033fef03a4ab4
 ```
 
 # Project 
 
-We will assign new pids for you when we approve the project and reports   
-Just use one type and delete the line with 
-
 ```
 project:
    type: project
-   type: report
    author: 
-   - Gregor von Laszewski
+   - Neil Eliason
    pid:
-   - 000
-   title: Benchmarking a BigData Docker deployment
-   abstract: This paper showcases tis and that and the other 
-   url: https://github.com/bigdata-i523/sample-pid000/project/report.pdf
+   - 
+   title: To be decided
+   abstract: To be decided 
+   url: To be decided
    type: latex
-   status: in progress
+   status: not yet started
 ```
    
