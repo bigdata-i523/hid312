@@ -16,14 +16,13 @@ owner:
 
 ```
 paper1:
-   author: Neil
-   - 
-   - Fugang Wang
+   author: 
+   - Neil
    hid:
-   - 000
-   - 001
+   - 312
    title: This is my paper about xyz
-   abstract: This paper showcases this and that and the other
+   abstract: >
+       This paper showcases this and that and the other
    url: https://github.com/bigdata-i523/sample-hid000/paper1/paper1.pdf
    type: latex
    status: in progress
@@ -34,12 +33,13 @@ paper1:
 ```
 paper2:
    author: 
-   - Gregor von Laszewski
+   - Neil
    hid:
-   - 000
+   - 312
    title: This is my paper about the other abc
-   abstract: This paper showcases this and that and the other in regards to abc
-   url: https://github.com/bigdata-i523/sample-hid000/paper2/paper2.pdf   
+   abstract: >
+       This paper showcases this and that and the other in regards to abc
+   url: https://github.com/bigdata-i523/sample-hid000/paper2/paper2.pdf
    type: word
    status: in progress
 ```
