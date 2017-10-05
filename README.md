@@ -16,7 +16,8 @@ owner:
 
 ```
 paper1:
-   author: Neil Eliason
+   author:
+   - Neil Eliason
    hid: 
    - 312
    title: An Overview of Big Data Applications in Mental Health Treatment
