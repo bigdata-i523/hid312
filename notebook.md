@@ -31,9 +31,12 @@
 * 2017/09/20: Worked on using LaTex and Jabref. Had difficulties w/ both TexShop and Share LaTex
 * 2017/09/21: Continued working on utilizing LaTex.
 * 2017/09/25: Began writing Introduction of Paper1 and adding sources to bib file.
+* 2017/09/26 through 10/06: Worked on writing paper, adding revisions to GitHub.
 # Meetings
 * Attended Online meeting w/ TAs
 * 2017/09/11: Attended Online Meeting discussing LaTex, Jabref, github
 * 2017/09/18: Attended Online Meeting discussing LaTex, Jabref, Paper1 
 * 2017/09/23: Attended Online Meeting with TAs and discussed using ShareLatex and cloning repository and running makefile, and correcting readme in GitHub
 * 2017/09/25: Attended Online Meeting and discussed ShareLatex, Paper1, Paper2, Project, bib files
+* 2017/09/30: Attended Online Meeting with TAs and discussed citations and paper format
+* 2017/10/02: Attended Online Meeting and discussed paper 1, python, and piazza questions
