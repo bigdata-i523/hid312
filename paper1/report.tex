@@ -43,69 +43,48 @@ Mental health treatment presents with complex informational challenges, which co
 \section{Introduction}
 Big Idea: Mental Illness is a big societal problem, which could benefit from a big data solution.
 
+\subsection{Big Data}
+
+There is no immutable or standardized definition of big data. However, most conceptualizations include data with high volume (amount of data stored), velocity (frequency of data input or update), and/or variety (number of data sources or types), known as the ``three v's``. As these factors increase, they reach the so called ``three v tipping point``, where traditional methods of analysis do not meet operational needs. Here, big data analytic techniques are utilized to make these unruly collections of data useful. Text mining, audio analytics, video analytics, and social media analytics are specific examples of applications of these techniques to different data types. Then predictive analytics creates data models which can predict future outcomes. These can be divided into regression techniques, which identify ways groups rely on each other, and machine learning techniques, which look for patterns in validated test data and then apply them to an unvalidated sample \cite{bdconcepts}.
+
+\subsection{Mental Health Treatment}
 What is Mental Illness? (One short statement)
 
-Mental health difficulties are a common problem across the United States, and worldwide. Mental illness of some kind was prevalent among 17.9 \% of Americans in 2015, and of that number 4\% experienced serious functional impairment as a result \cite{nihmstats}. A 2014 meta-analysis study estimated that the worldwide prevalence of mental illness was 17.6\% and that 29.2\% of the world population would experience mental illness at some point during their life \cite{worldprev}.  
+Mental health difficulties are a common problem across the United States, and worldwide. Mental illness of some kind was prevalent among 17.9 \% of Americans in 2015, and of that number 4\% experienced serious functional impairment as a result \cite{nihmstats}. A 2014 meta-analysis study estimated that the worldwide prevalence of mental illness was 17.6\% and that 29.2\% of the world population would experience mental illness at some point during their life \cite{worldprev}. The effects of these disorders on individuals and societies is costly. The US Center for Disease Control and Prevention estimated that 36,035 people died during a suicide attempt in 2008, and that 666,000 sought emergency room care for self harming behavior \cite{cdcsuicide}. In 2013, the Social Security Administration reported that 1,947,775 persons received social security/disability benefits for either a mood or psychotic disorder, which is around 19\% of all recipients \cite{ssarecipients}. It is estimated that mental health issues had a \$100 billion cost on the US economy in 2002 \cite{nihmstats} (more recent stats), and in 2015 there were over 12,000 mental health treatment facilities in the US \cite{n-mhss2015}.
 
-The effects of these disorders on individuals and societies is costly. The US Center for Disease Control and Prevention estimated that 36,035 people died during a suicide attempt in 2008, and that 666,000 sought emergency room care for self harming behavior \cite{cdcsuicide}. In 2013, the Social Security Administration reported that 1,947,775 persons received social security/disability benefits for either a mood or psychotic disorder, which is around 19\% of all recipients \cite{ssarecipients}. 
-It is estimated that mental health issues had a \$100 billion cost on the US economy in 2002 \cite{nihmstats} (more recent stats), and in 2015 there were over 12,000 mental health treatment facilities in the US \cite{n-mhss2015}.
-
-
-\subsection{The State of Mental Health Treatment}
 Consider including brief description of recovery model and psychosocial perspective. Find citation about goal of MH tx, put first
 
 Mental health treatment attempts to address these pervasive and complex problems at an individual level. While this by nature results in a system that is heterogeneous and complex, treatment is still typically delivered through three common modes of practice: talk therapy, medication, and supportive services. Therapy attempts to help the person change the way they think, feel, or act. These interventions typically provide behavioral strategies or seek to harness the person's motivation to change. Psychotropic medications are utilized to reduce symptoms of mental illness to improve life functioning. Supportive services are a variety of other services which seek to directly help the person with mental illness to realize concrete life improvements. Some examples are case management, which seeks to coordinate all service providers towards the person's goals, supportive employment, which seeks to provide assistance in finding and maintaining a job, and peer-support groups, which connect persons with mental illness with other people who have similar struggles \cite{samhsatx}.
 
-\subsection{The State of Big Data}
-
-There is no immutable or standardized definition of big data. However, most conceptualizations include data with high volume (amount of data stored), velocity (frequency of data input or update), and/or variety (number of data sources or types). These qualities of volume, velocity, and variety are known as the ``three v's``. This type of data require specialized techniques in order to be useful\cite{bdconcepts}.
-
-
-Industry examples and global stats
-Overview of data lifecycle
-    DIWK overview
-    D-storage, collection
-    I-Data management, cleaning, sorting, data mining, 
-    K-Predictive analytics
-    W-Decisions made
-    
-Analytics 
-    List of examples of specific methods
-    
-
+The natural progression of mental health treatment is to first identify diagnose the person's problem. Then a treatment intervention is provided to improve functioning. Lastly, the person's progress is assessed to determine the effectiveness of the intervention (CITATION NEEDED). Big Data solutions are being explored for each of these steps.
 Thesis
 Data related to mental health treatment fits the high-volume, high-variety, and high-velocity of Big Data. However, Big Data informed treatments are still early in their development, though the potential benefit is recognized.
 
 \section{Big Data Applications in Mental Health Treatment}
-The natural progression of mental health treatment is to first identify diagnose the person's problem. Then a treatment intervention is provided to improve functioning. Lastly, the person's progress is assessed to determine the effectiveness of the intervention (CITATION NEEDED). Big Data solutions are being explored for each of these steps.
+
 \subsection{Screening and Diagnosis}
 Mental health screening attempts to identify a person's primary mental health risks and needs for the purpose of directing them to appropriate sources. They tend to be narrow in focus and brief, which allows them to be easily disseminated to help filter people to the right level of care \cite{apapractscreeassess}. 
 On a larger scale, several studies have explored using social media to identify mental illness in the general population. The many attempted to identify depression by analyzing the content of social media posts, and to create a predictive model by using algorithms to predict variables of interest. Those that used public data benefited from leveraging large sample sizes from sources such as Twitter or mental health forums, but had the complication of less reliability. It is estimated that the ability to detect depression by machine driven predictive models running on big social media data was above that of unaided primary care clinicians, but below that of self-report surveys. \cite{detectdepressionsocialmedia}.
 
 Similar to screening, diagnosis aims to identify a person's mental health dysfunction, but does so in more clinically robust categories (CITATION NEEDED). 
-Running specialized analytics on Big Data could help produce models which can improve diagnostic accuracy and efficiency. Numerous studies have used machine learning techniques to place patients into diagnostic groups to aid in diagnosis of bipolar disorder. These used machine learning algorithms to look for patterns in neuroimaging, genetic analysis, neuropsychological tests, and protein biomarkers. They were able to create predictive models, but their performance was not greater than current diagnostic systems. While this task could not be completely automated via big data analytics any time soon, they may be able to inform clinical diagnosis in the short-term \cite{machinelearnbipolar} \cite{bigdatabipolar}.
+Running specialized analytics, such as data mining, machine learning, and natural language processing on Big Data could help produce models which can improve diagnostic accuracy and efficiency \cite{bigdatabipolar}. These techniques were used to place patients into diagnostic groups to aid in diagnosis of bipolar disorder. These used machine learning algorithms to look for patterns in neuroimaging, genetic analysis, neuropsychological tests, and protein biomarkers. They were able to create predictive models, but their performance was not greater than current diagnostic systems. While this task could not be completely automated via big data analytics any time soon, they may be able to inform clinical diagnosis in the short-term \cite{machinelearnbipolar}.
 
-Predictive models are also being constructed from a variety of data sources to estimate patient outcomes, often utilizing machine learning techniques. \cite{bigdatabipolar} This technique has been applied to creating risk profiles, which take data from Electronic Medical Records and identify patient characteristics that are connected to negative outcomes, such as relapse and hospital admission. Studies have also explored models which predict patient mood states, based on past monitoring data, and predicting how patients will respond to specific interventions. While these examples were fairly accurate (68\% to 99\%), they were based on relatively small sample sizes \cite{machinelearnbipolar}.  Predictive models show promise of being an effective big data application in mental health treatment, but require further advances in machine learning techniques and uses on larger samples to before they can be widely administered \cite{bigdatabipolar}.
+Predictive models using machine learning techniques are also being constructed from a variety of data sources to estimate patient outcomes, which could be helpful in selection of interventions at the onset of treatment. \cite{bigdatabipolar} Predictive risk profiles were created by taking data from Electronic Medical Records and identifying patient characteristics that are connected to negative outcomes, such as relapse and hospital admission. Studies have also explored models which predict patient mood states, based on past monitoring data, and predicting how patients will respond to specific interventions. While these examples were fairly accurate (68\% to 99\%), they were based on relatively small sample sizes \cite{machinelearnbipolar}.  Predictive models show promise of being an effective big data application in mental health treatment, but require further advances in machine learning techniques and uses on larger samples before they can be widely administered \cite{bigdatabipolar}.
 \subsection{Interventions}
-Once a person's mental health issues have been clinically identified, then interventions are assigned. Those traditionally take the form of talk-therapy, medication, and supportive services such as case management \cite{samhsatx}. With this design, services are limited by the number of trained clinicians in a given area. Web-based interventions have been explored to overcome this problem \cite{bitreview}.
-\subsection{Assessment and Monitoring}
-As a person receives treatment, tracking progress towards their goals is critical. Traditionally this is done by patient report via a tracking log or by clinician inquiry during a session, and is often hindered by a lack of patient engagement. One solution to this is active monitoring utilizing mobile devices \cite{bitreview} 
-
-\cite{bigdatabipolar}.
-
-Another possibility is passive monitoring, which would access information from a mobile device, and connect those to patient behaviors. This can be done using clinically informed algorithms or machine learning paired with self-report \cite{bitreview} \cite{bigdatabipolar}. 
-
-
-
-
-
-
-\section{Conclusions}
+Once a person's mental health issues have been clinically identified, then interventions are assigned. Those traditionally take the form of talk-therapy, medication, and supportive services such as case management \cite{samhsatx}. With this design, services are limited by the number of trained clinicians in a given area. Web-based interventions, which provide treatment activities via web-browser have seen some success, particularly if paired with a human coach. This approach is still fairly nascent, but there is interest in using machine learning to predict content that a particular user would find helpful \cite{bitreview}, a technique called a recommender system \cite{recomdef}.
+\subsection{Treatment Monitoring}
+As a person receives treatment, tracking progress towards their goals is critical. Traditionally this is done by patient report via a tracking log or by clinician inquiry during a session, and is often hindered by a lack of patient engagement. One solution to this is active monitoring utilizing mobile devices. Utilizing text message or application notifications, treatment goal reminders, symptom assessment questions, or encouraging messages are sent to the treatment participant \cite{bitreview}. Feedback from the patient can come in various forms from filling out a survey  to voice response, and may be collected multiple times a day. The frequent collection of different types of data make active monitoring an application which could benefit from a big data approach. However, trouble with integrating data into the electronic medical record and a lack of widespread utilization have prevented such approaches from being extensively applied or reliably tested \cite{bigdatabipolar}.
+Another possibility is passive monitoring, which would access information from a mobile device, and connect those to patient behaviors, without any intentional action on the patient's part. This can be done using clinically informed algorithms or machine learning paired with self-report \cite{bitreview}. Devices used were not just smartphones, but including wearables and an sensor which is swallowed to detect medication adherence. Active monitoring has generated considerable research interest, but implementation at a big data level is challenged by lack of client engagement, clinician's ability to use, and difficulties integrating the large quantities of data \cite{bigdatabipolar}. 
+\section{Discussion}
+\subsection{Summary}
 
 \subsection{Barriers}
 
+
 \subsection{Future Directions}
 AI for monitoring
+
+\section{Conclusion}
 
 \appendix
 
