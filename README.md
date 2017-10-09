@@ -28,7 +28,7 @@ paper1:
        find a lack of infrastructure and ethical concerns hamper their progress.
    url: https://github.com/bigdata-i523/hid312/paper1
    type: latex
-   status: 95%
+   status: 100%
    chapter: Health
 ```
    
