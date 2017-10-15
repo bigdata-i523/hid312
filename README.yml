@@ -1,0 +1,41 @@
+---
+owner:
+    hid: 312
+    name: Neil Eliason
+    url: https://github.com/bigdata-i523/hid312
+paper1:
+    abstract: 'Mental health treatment presents with complex informational challenges,  which
+        could be effectively tackled with   big data techniques. However,  as researchers
+        and treatment providers explore these applications, they  find a lack of infrastructure
+        and ethical concerns hamper their progress.
+
+        '
+    author:
+        - Neil Eliason
+    chapter: Health
+    hid:
+        - 312
+    status: 100%
+    title: An Overview of Big Data Applications in Mental Health Treatment
+    type: latex
+    url: https://github.com/bigdata-i523/hid312/paper1
+paper2:
+    abstract: To be decided
+    author:
+        - Neil Eliason
+    hid:
+        - 312
+    status: not yet started
+    title: To be decided
+    type: latex
+    url: To be decided
+project:
+    abstract: To be decided
+    author:
+        - Neil Eliason
+    pid:
+        - null
+    status: not yet started
+    title: To be decided
+    type: latex
+    url: To be decided
