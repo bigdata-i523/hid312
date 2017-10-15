@@ -4,12 +4,11 @@ owner:
     name: Neil Eliason
     url: https://github.com/bigdata-i523/hid312
 paper1:
-    abstract: 'Mental health treatment presents with complex informational challenges,  which
+    abstract: >
+        Mental health treatment presents with complex informational challenges,  which
         could be effectively tackled with   big data techniques. However,  as researchers
         and treatment providers explore these applications, they  find a lack of infrastructure
         and ethical concerns hamper their progress.
-
-        '
     author:
         - Neil Eliason
     chapter: Health
