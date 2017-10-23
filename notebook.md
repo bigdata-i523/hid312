@@ -15,6 +15,7 @@
 * set up pyenv and python 2 and 3
 * Learning Linux shell via tutorial
 * 2017/09/16: Continued to practice Linux shell via tutorial.
+* 2017/10/21: Practiced using command line to bring data from github into python and reading yml files in python.
 # Theory
 * Viewed Motivation for Course Videos through Computing Model
 * 2017/09/11: Viewed Powerpoint of Overview of Health/Medical Informatics
@@ -33,6 +34,7 @@
 * 2017/09/25: Began writing Introduction of Paper1 and adding sources to bib file.
 * 2017/09/26 through 10/06: Worked on writing paper, adding revisions to GitHub.
 * 2017/10/18: Identified and outlined sources for paper 2.
+* 2017/10/23: Identified and outlined sources for paper 2.
 # Meetings
 * Attended Online meeting w/ TAs
 * 2017/09/11: Attended Online Meeting discussing LaTex, Jabref, github
@@ -42,3 +44,5 @@
 * 2017/09/30: Attended Online Meeting with TAs and discussed citations and paper format
 * 2017/10/02: Attended Online Meeting and discussed paper 1, python, and piazza questions
 * 2017/10/16: Attended Online Meeting concerning paper 1 review, experiments, paper 2, and project
+* 2017/10/21: Attended Online Meeting with TAs and discussed paper 1 review
+* 2017/10/23: Attended Online Meeting concerning paper 1 reviews, compiling proceedings locally, and using git config tools
