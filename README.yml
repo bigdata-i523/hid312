@@ -14,7 +14,7 @@ paper1:
     chapter: Health
     hid:
         - 312
-    status: 100%
+    status: Review on 3 Nov 2017
     title: An Overview of Big Data Applications in Mental Health Treatment
     type: latex
     url: https://github.com/bigdata-i523/hid312/paper1
@@ -24,7 +24,7 @@ paper2:
         - Neil Eliason
     hid:
         - 312
-    status: not yet started
+    status: 15%
     title: To be decided
     type: latex
     url: To be decided
