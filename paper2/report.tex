@@ -3,52 +3,25 @@
 \input{format/i523}
 
 \begin{document}
-\title{Big Data for Edge Computing}
+\title{Big Data Applications in Historical Studies}
 
 
-\author{Ben Trovato}
-\orcid{1234-5678-9012}
+\author{Neil Eliason}
 \affiliation{%
-  \institution{Institute for Clarity in Documentation}
-  \streetaddress{P.O. Box 1212}
-  \city{Dublin} 
-  \state{Ohio} 
-  \postcode{43017-6221}
+  \institution{Indiana Unversity}
+  \city{Anderson} 
+  \state{Indiana} 
 }
-\email{trovato@corporation.com}
-
-\author{G.K.M. Tobin}
-\affiliation{%
-  \institution{Institute for Clarity in Documentation}
-  \streetaddress{P.O. Box 1212}
-  \city{Dublin} 
-  \state{Ohio} 
-  \postcode{43017-6221}
-}
-\email{webmaster@marysville-ohio.com}
-
-\author{Gregor von Laszewski}
-\affiliation{%
-  \institution{Indiana University}
-  \streetaddress{Smith Research Center}
-  \city{Bloomington} 
-  \state{IN} 
-  \postcode{47408}
-  \country{USA}}
-\email{laszewski@gmail.com}
-
 
 % The default list of authors is too long for headers}
-\renewcommand{\shortauthors}{G. v. Laszewski}
+\renewcommand{\shortauthors}{N. Eliason}
 
 
 \begin{abstract}
-This paper provides a sample of a \LaTeX\ document which conforms,
-somewhat loosely, to the formatting guidelines for
-ACM SIG Proceedings.
+
 \end{abstract}
 
-\keywords{Big Data, Edge Computing i523}
+\keywords{i523, HID 312, Big Data, History}
 
 
 \maketitle
@@ -56,61 +29,76 @@ ACM SIG Proceedings.
 
 
 \section{Introduction}
+\subsection{Big Data}
+Big data attention and success stories. Driven by More's Law.
 
-Put here an introduction about your topic. 
-We just need one sample refernce so the paper compiles in LaTeX so we
-put it here \cite{editor00}.
+Big data to date can claim numerous victories in a variety of fields, and promises more. Businesses such as Facebook and Netflix have built corporate empires off of the insights gathered from their big data, and physicists and biologists are learning what makes up the universe and ourselves via big data \cite{bdsurvey}. 
 
-\section{figures}
+Despite all this, the concept itself is rather nebulously defined. A rough description of is data with quantitative factors that require specialized techniques to utilize. The most commonly referenced big data factors are volume (amount of data), variety (number of data source types), and velocity (rate of data collection or input) known as the three vs. While this definition is generally accepted, its application varies based upon the industry or field of study and often changes with developments in information technology \cite{bdconcepts}.
 
-In Figure \ref{f:fly} we show a fly. Please note that because we use
-just columwidth that the size of the figure will change to the
-columnwidth of the paper once we change the layout to final. CHnaging
-the layout to final should not be done by you. All figures will be
-listed at the end.
+The focus on big data arises partially from the phenomenon of data storage capabilities growing at a faster rate than data processing. This creates a situation where data can be economically stored, but not as economically processed, requiring specialized analytic techniques. As big data progresses through the storage, cleaning, analysis, and interpretation stages of the data life cycle, specialized approaches are required \cite{bdsurvey}.
 
-\begin{figure}[!ht]
-  \centering\includegraphics[width=\columnwidth]{images/fly.pdf}
-  \caption{Example caption}\label{f:fly}
-\end{figure}
+DIKW Data lifecycle
 
-When copying the example, please do not check in the images from the
-examples into your images directory as you will not need them for your
-paper. Instead use images that you like to include. If you do not have
-any images, do not dreate the images folder.
+\subsection{History of History}
 
-\section{Tables}
+The historian's labor has involved interacting with voluminous and varied data for centuries. Before computers, this process involved searching physical archives for relevant data, and manually copying and organizing it into useful information to be analyzed. Though this method can deliver deep insights, some data sets are too big to be studied in a manual fashion \cite{bdglobalhist}.
 
-In case you need to create tables, you can do this with online tools
-(if you do not mind sharing your data) such as
-\url{https://www.tablesgenerator.com/} or other such tools (please
-google for them). They even allow you to manage tables as CSV.
+Around the mid-twentieth century, computers had become sufficiently powerful and usable  for historians to begin using them to process larger amounts of information. This facilitated a change towards a more quantitative approach and a focus by some from tracing the rise and fall of political or ideological forces, to developing a more complete understanding of mundane topics, such as the family or economics.
 
-or generate them by hand while using the provided template in Table\ref{t:mytable}. Not ethat
-the caption is before the tabular environment.
+Now as archives become digitized and accessible via the internet, the quantity of data available leads to the appeal to big data analytic methods \cite{digitalrepublicletters}. The potential of unlocking significant connections and developing big picture historical insights at the scale of the growing digital archives of the world is alluring. This hope has driven the labor of many researchers towards developing more big data informed research methods and has directed funds of many institutions towards investments in data infrastructure. However, many are also concerned that the promises of big data are at best optimistic, and at worst hiding potential pitfalls to the historical process \cite{bdglobalhist}.
 
-\begin{table}[htb]
-\centering
-\caption{My caption}
-\label{t:mytabble}
-\begin{tabular}{lll}
-1 & 2 & 3 \\
-\hline
-4 & 5 & 6 \\
-7 & 8 & 9
-\end{tabular}
-\end{table}
+\subsection{Thesis}
+Big Data Analytics have the potential to provide new insights to the field of historical studies. However, their application will differ due to the nature of historical data, and they will serve as an additional tool for the historian, rather than the only tool.
 
-\section{Long example}
+\section{Big Data in Historical Studies}
+\subsection{Data Sources}
+Source types
 
-If you like to see a more elaborate example, please look at
-report-long.tex. 
+Methods to get information from data
+
+Methods different from streaming data
+It could be argued that the seeds of big data history have long laid dormant in  archives and libraries, waiting to be germinated by sufficient computational capabilities to process them. As big data analytics mature, pressure develops to make more data available for analysis by digitizing more archival material. This is evidenced not only by the familiar repositories of e-books, but also by archives containing millions of pages from newspapers \cite{bdglobalhist} centuries of letters \cite{digitalrepublicletters}, and 
+
+Sources for big data research consist not only of the content of documents in an archive, but also the bibliographical records.While originally designed to allow individual works to be located in an archive, historians have began to study the bibliographical data themselves, an approach called distant reading. By looking at the data about a document, rather than the document's content, societal or intellectual trends can be identified across large scale factors such as time or geography in a more comprehensive way. This approach has elicited some criticism that collections of bibliographical data are not complete enough to derive such large-scale conclusions. Still, considerable interest exist in targeting these data sets for historical analysis \cite{musichist}.
+
+However, the data from these sources differs from that of other fields which utilize big data analytics. Historical data is not streaming the way that social media or smartphone sensors are. It is data which has already been collected, organized, and often times analyzed for a purpose defined by people from a different time and different needs/constraints from ourselves. This creates data sets which are difficult to compare and often require considerable cleaning and reworking to be used in a larger framework. \cite{digitalrepublicletters}.
+
+\subsection{Analytics for Big Historical Data}
+Analytic Techniques 
+
+Due to the natural reliance on documents in historical studies, text analytic techniques are the primary set of big data approach utilized by historians. Text analytics is broad category of related algorithms and statistical techniques, such as artificial intelligence, machine learning, and natural language processing that attempt to extract specific information from the text and identify patterns and relationships within the body of data \cite{bdglobalhist}. 
+
+Artificial intelligence is ``the ability of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings``\cite{aidef}. In the context of historical research, this would include tasks such as extracting relevant content from sources, identifying relationships within the data. A specific type of artificial intelligence is machine learning, which consists of programs which change their actions autonomously in response external input. Their ability to adapt allows them to do decision-making tasks, and thus can search through data sources in a more intelligent way to find relevant data \cite{bdsurvey}. Natural language processing is another artificial intelligence technique, which aims to create programs that can take human language, and make it machine readable \cite{natlangdef}. Historians can use such programs connect archival documents to more complex analytic algorithms.
+
+In order to interpret the results of big data analysis, visualization is critical. This is a challenge, as the large scale of the data makes striking a balance between a sufficiently big picture perspective without losing relevant details difficult. Many approaches attempt to utilize high resolution approaches to avoid losing important information \cite{bdsurvey}. This process is especially challenging in historical studies, as the data is often incomplete and may have inconsistencies which prevent assuming a uniform set of data. For this reason, historians often use visualizations to identify qualitative, rather than quantitative relationships in the data, to inform further inquiry \cite{digitalrepublicletters}.
+
+\subsection{Software Packages and Resources for Big Data History}
+A variety of software packages have been utilized to assist the process of translating raw data into historical insights, such as such as Tableau, Gephi, R, and ArcGIS. However, a limitation of these tools is their their quantitative focus, which tends to exclude more qualitative approaches \cite{digitalrepublicletters}. 
+
+Some software has been developed to provide a more qualitative visualization tool set for researchers.For example Stanford University developed a software package called Palladio, designed to visualize connections in large scale historical data. Their approach focused on visualizations that encouraged exploring data, rather than creating statistical statements about it. Examples of this would be mapping connections between historical actors over geography or creating a visualization of the social network of a particular figure in history. They do not create statistical arguments, rather they give a framework for understanding how the data are connected \cite{palladio}.
+
+Another tool with a qualitative visualization focus is WAHSP. It was developed to extract data from the National Library of the Netherlands' newspaper archive, but has been utilized on a number of other databases as well. It provides a number of useful analyses, such as word frequency cloud visualizations, detecting positive or negative sentiment related to certain terms, and Named Entity Recognition, which can identify people, places, events, etc. and then connect them into a relational or geographical framework. It also provides an interactive histogram where the resolution of the data can be adjusted to quickly move between a big picture and detailed data perspective. A derivative project is BILAND, which is a program that can perform many of the analyses of WAHSP, but applies them across two languages, Dutch and German for comparative cultural studies \cite{bdglobalhist}.
+
+Along with these data intensive tools specifically designed for historical studies, there are also resources to help the historian learn some of these methods. For example, The Programming Historian website provides a wide range of tutorials and lessons on how to use digital tools in historical studies. At the time of this writing there were 67 lessons available organized by their target stage of research, including lessons on using R, Python, Java, and GitHub \cite{proghistabout}.
+
+\subsection{Insights from Big Historical Data}
+A number of studies have used these techniques to approach historical research from a big data perspective. Stanford's Mapping of the Republic of Letters project sought to map the social network of Enlightenment thinkers who actively corresponded with each other. This was accomplished by utilizing big data analytics on the meta-data of these letters to see how these thinkers related temporally, geographically, socially. Through the research process, the need for more qualitative approaches to visualization was recognized, and eventually led to the development of the Palladio tool set. 
+
+Their analysis revealed a number of interesting points. By mapping the social network of John Locke, they supported previous scholarly contentions that the Enlightenment culture was not homogeneously connected, but was made up of a number of subcultures which had thin social connections. Also, by analyzing Benjamin Franklin's letters, they noted that despite his reputation as cross cultural traveler, the main hub of his correspondence was between Philadelphia and London, which were major centers of British culture. \cite{digitalrepublicletters} .
+
+The WAHSP tool has also been used to analyze large data-sets. One researcher used the tool to study attitudes found towards drugs in the early 20th century newspapers. It found by using the word cloud analysis tool, that before  1924 that drugs such as heroin and opium were used in the context of health, but after 1924 they were associated with crime. 
+
+The related tool BILAND was used to study 
+
+\section{Potential Issues}
+Opportunistic research: Data driven, not question driven \cite{bigdatacritique}, \cite{digitalrepublicletters}
+Over-hyped
+Gaps in data sources
+Improperly formated data\cite{digitalrepublicletters}
+
 
 \section{Conclusion}
-
-Put here an conclusion. Conlcusions and abstracts must not have any
-citations in the section.
-
 
 \begin{acks}
 
@@ -121,22 +109,6 @@ citations in the section.
 
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{report} 
-
-\appendix
-
-We include an appendix with common issues that we see when students
-submit papers. One particular important issue is not to use the
-underscore in bibtex labels. Sharelatex allows this, but the
-proceedings script we have does not allow this.
-
-When you submit the paper you need to address each of the items in the
-issues.tex file and verify that you have done them. Please do this
-only at the end once you have finished writing the paper. To d this
-cange TODO with DONE. However if you check something on with DONE, but
-we find you actually have not executed it correcty, you will receive
-point deductions. Thus it is important to do this correctly and not
-just 5 minutes before the deadline. It is better to do a late
-submission than doing the check in haste. 
 
 \input{issues}
 
