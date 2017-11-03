@@ -9,13 +9,15 @@
 * Worked on setting up GitHub notebook
 * 2017/09/25: Worked on adding Paper1 report.tex and report.bib files to GitHub, as well as correcting readme, and updating notebook
 * 2017/09/21: Worked at setting up GitHub readme file. Will need TA help on Saturday to finish.
+* 2017/11/1: Set up paper 2 folder
 # Practice
 * Learning python via tutorials and work in pycharm
 * Installed virtualbox, and set up virtual machine w/ Ubuntu
 * set up pyenv and python 2 and 3
 * Learning Linux shell via tutorial
 * 2017/09/16: Continued to practice Linux shell via tutorial.
-* 2017/10/21: Practiced using command line to bring data from github into python and reading yml files in python.
+* 2017/10/21: Practiced using command line to bring data from github into python and reading yml files in python.0
+* 2017/11/2:  Practiced installing packages for latex and python from linex command line in order to troubleshoot compiling papers on local machine, as well as learning new commandline commands. 
 # Theory
 * Viewed Motivation for Course Videos through Computing Model
 * 2017/09/11: Viewed Powerpoint of Overview of Health/Medical Informatics
@@ -35,6 +37,15 @@
 * 2017/09/26 through 10/06: Worked on writing paper, adding revisions to GitHub.
 * 2017/10/18: Identified and outlined sources for paper 2.
 * 2017/10/23: Identified and outlined sources for paper 2.
+* 2017/10/24: Began writing paper 2.
+* 2017/10/26: Continued writing paper 2.
+* 2017/10/27: Continued writing paper 2.
+* 2017/10/28: Continued writing paper 2. 
+* 2017/10/29: Continued writing paper 2.
+* 2017/10/30: Continued writing paper 2.
+* 2017/10/31: Continued writing paper 2.
+* 2017/10/31: Continued writing paper 2.
+* 2017/11/01: Reviewed paper 1 and updated based on feedback from Turnitin.
 # Meetings
 * Attended Online meeting w/ TAs
 * 2017/09/11: Attended Online Meeting discussing LaTex, Jabref, github
@@ -46,3 +57,4 @@
 * 2017/10/16: Attended Online Meeting concerning paper 1 review, experiments, paper 2, and project
 * 2017/10/21: Attended Online Meeting with TAs and discussed paper 1 review
 * 2017/10/23: Attended Online Meeting concerning paper 1 reviews, compiling proceedings locally, and using git config tools
+* 2017/10/30: Attended Online Meeting concerning compiling papers locally, reviewing papers, project proposals
