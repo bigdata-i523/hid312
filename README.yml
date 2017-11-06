@@ -5,11 +5,13 @@ owner:
     url: https://github.com/bigdata-i523/hid312
 paper1:
     abstract: >
-        Mental health treatment presents with complex informational challenges, which
-        could be effectively tackled with big data techniques. However, as researchers 
-        and treatment providers explore these applications, they find a lack of 
-        infrastructure and ethical concerns hamper their progress. A unified approach of 
-        developing an ethically informed data infrastructure is necessary to proceed.
+        Mental health treatment presents with complex informational
+        challenges, which could be effectively tackled with big data
+        techniques. However, as researchers and treatment providers
+        explore these applications, they find a lack of infrastructure
+        and ethical concerns hamper their progress. A unified approach
+        of developing an ethically informed data infrastructure is
+        necessary to proceed.
     author:
         - Neil Eliason
     chapter: Health
@@ -22,11 +24,14 @@ paper1:
 paper2:
     review: Nov 6 2017
     abstract: >
-        As big data analytics progress in other fields, historians have began to consider how 
-        they can apply these techniques to their studies. Various studies demonstrate potential 
-        benefits of big data approaches. However, care must be taken to keep big data results in 
-        the overall context of traditional scholarship and to utilize appropriate historical and 
-        technical expertise to avoid introducing inaccuracy and bias into findings.
+        As big data analytics progress in other fields, historians
+        have began to consider how they can apply these techniques to
+        their studies. Various studies demonstrate potential benefits
+        of big data approaches. However, care must be taken to keep
+        big data results in the overall context of traditional
+        scholarship and to utilize appropriate historical and
+        technical expertise to avoid introducing inaccuracy and bias
+        into findings.
     author:
         - Neil Eliason
     hid:
