@@ -5,11 +5,7 @@ owner:
     url: https://github.com/bigdata-i523/hid312
 paper1:
     abstract: >
-        Mental health treatment presents with complex informational challenges, which could be 
-        effectively tackled with big data techniques. However, as researchers and treatment providers 
-        explore these applications, they find a lack of infrastructure and ethical concerns hamper 
-        their progress. A unified approach of developing an ethically informed data infrastructure is 
-        necessary to proceed.
+        Mental health treatment presents with complex informational challenges, which could be effectively tackled with big data techniques. However, as researchers and treatment providers explore these applications, they find a lack of infrastructure and ethical concerns hamper their progress. A unified approach of developing an ethically informed data infrastructure is necessary to proceed.
     author:
         - Neil Eliason
     chapter: Health
