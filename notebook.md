@@ -23,7 +23,7 @@
 * 2017/09/11: Viewed Powerpoint of Overview of Health/Medical Informatics
 * 2017/09/15: Viewed Motivation for Course through Data Science Education
 * 2017/09/19: Finished viewing Motivation for Course section.
-# Writing
+# Writing and Project
 * Selected topic for Paper 1
 * Viewed video on how to write a research paper
 * Began searching for sources for paper
@@ -46,6 +46,10 @@
 * 2017/10/31: Continued writing paper 2.
 * 2017/10/31: Continued writing paper 2.
 * 2017/11/01: Reviewed paper 1 and updated based on feedback from Turnitin.
+* 2017/11/13: Worked on writing python code to parse project xml file
+* 2017/11/14: Worked on writing python code to parse project xml file
+* 2017/11/15: Worked on writing python code to parse project xml file
+* 2017/11/19: Worked on writing python code to parse project xml file
 # Meetings
 * Attended Online meeting w/ TAs
 * 2017/09/11: Attended Online Meeting discussing LaTex, Jabref, github
@@ -58,3 +62,4 @@
 * 2017/10/21: Attended Online Meeting with TAs and discussed paper 1 review
 * 2017/10/23: Attended Online Meeting concerning paper 1 reviews, compiling proceedings locally, and using git config tools
 * 2017/10/30: Attended Online Meeting concerning compiling papers locally, reviewing papers, project proposals
+* 2017/11/20: Attended Online Meeting concerning project
