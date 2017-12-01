@@ -6,7 +6,6 @@ def dataparse(data):
 
     import xml.etree.ElementTree as ET
     import pandas as pd
-    import datetime as dt
 
 # import and parse xml file
 
