@@ -10,15 +10,18 @@ def make_reports():
 
     # defines xml file to read for each iteration
     files = glob.glob('iPhoneData/*.xml')
-    counter = 1
-    file = files[counter]
+    files.reverse()
+    counter = 0
+
+
+
 
     # iterates table and graph functions over each xml file and writes
     # output to txt and pdf files
     for i in files:
+
         if counter <= len(files):
-
-
+            file = files[counter]
             df = dataparse(data= file)
             file_name = ("Client" + str(counter))
 
@@ -41,6 +44,11 @@ def make_reports():
             counter = counter + 1
 
 make_reports()
+
+
+
+
+
 
 
 
