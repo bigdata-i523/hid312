@@ -10,7 +10,7 @@
 
 1. Create a new installation of Ubuntu 16.04 on Oracle Virtual Box
 2. Open terminal
-3. Run the following code:
+3. To install, execute the following code:
   ~~~~
   sudo apt-get install git
   mkdir project
@@ -19,6 +19,6 @@
   chmod 755 make_install.sh
   sudo ./make_install.sh
   ~~~~
-4. Run: `python3 makefile.py`
+4. To run the program, execute: `python3 makefile.py`
 
-# 
+ 
