@@ -14,6 +14,7 @@
   ~~~~
   sudo apt-get install git
   mkdir project
+  cd project
   git clone https://github.com/bigdata-i523/hid312
   cd ~/project/hid312/project/code
   chmod 755 make_install.sh
