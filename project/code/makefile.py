@@ -23,7 +23,7 @@ def make_reports():
         if counter <= len(files):
             file = files[counter]
             df = dataparse(data= file)
-            file_name = ("Client" + str(counter))
+            file_name = ("Client" + str(counter+1))
 
             # saves plots as pdf for each iteration
             graph1 = stepsBYdateGraph(df)
@@ -36,7 +36,7 @@ def make_reports():
             # saves table as txt for each iteration
             table1 = stepsBYweekday(df)
             f = open(file_name+".txt","w")
-            f.write("Client " + str(counter) + " Report\n\n")
+            f.write(file_name + " Report\n\n")
             f.write("Steps by Week\n")
             f.write(str(table1)+"\n\n")
             f.close()
