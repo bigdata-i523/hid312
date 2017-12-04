@@ -7,4 +7,4 @@ sudo apt-get install python3-tk
 python3 /usr/bin/pip3 install matplotlib
 python3 /usr/bin/pip3 install pandas
 python3 /usr/bin/pip3 install numpy
-mkdir hid312/project/code/iPhoneData
+mkdir project/hid312/project/code/iPhoneData
