@@ -44,7 +44,7 @@ project:
     abstract: To be decided
     author:
         - Neil Eliason
-    pid:
+    hid:
         - null
     status: not yet started
     title: To be decided
