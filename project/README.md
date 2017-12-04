@@ -4,7 +4,6 @@
 
 * This program parses and analyzes multiple data files collected from the Apple Health app on iPhone 6s.
 * It outputs a table with steps per week and day, as well as a time series graph of all steps by date and average steps per day of the week.
-* To analyze your own data, remove xml files from iPhoneData file, and place iPhone 6s Health export files to be analyzed in file. Then run `python3 makefile.py`.
 
 # Installation and Run Instructions
 
@@ -20,6 +19,7 @@
   chmod 755 make_install.sh
   sudo ./make_install.sh
   ~~~~
+3. Add xml files to iPhoneData folder from the folder hid312 in the public google drive for i523.
 4. To run the program, execute: `python3 makefile.py`
 
  
