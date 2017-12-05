@@ -44,15 +44,15 @@ project:
     abstract: >
         Big data holds great promise in a number of fields, and mental
         health treatment is no exception. Effective big data applications
-        have been developed for every stage of treatment, but not without 
+        have been developed for every stage of treatment, but not without
         difficuties. This is particularly true for passive monitoring using
         smartphones. While it provides improved resolution of consumer behavior,
-        it has complications with privacy and implementation connected with use 
-        commercial software and streaming data. This project created an open 
-        source program which uses discrete exported data from smartphones to 
+        it has complications with privacy and implementation connected with use
+        commercial software and streaming data. This project created an open
+        source program which uses discrete exported data from smartphones to
         implement passive monitoring in a way that promotes consumer control of
-        their data and independence from commercial interests. A working program 
-        which parses and analyzes smartphone data was created to demonstrate 
+        their data and independence from commercial interests. A working program
+        which parses and analyzes smartphone data was created to demonstrate
         concepts, but would benefit from further development of parser options,
         analyses, and input/output file management in the future.
     author:
@@ -60,6 +60,8 @@ project:
     hid:
         - 312
     status: 99%
-    title: Big Data Mental Health Monitoring: A Private and Independent Approach
+    title: >
+        Big Data Mental Health Monitoring -
+        A Private and Independent Approach
     type: project
     url: https://github.com/bigdata-i523/hid312/project
