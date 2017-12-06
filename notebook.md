@@ -50,6 +50,17 @@
 * 2017/11/14: Worked on writing python code to parse project xml file
 * 2017/11/15: Worked on writing python code to parse project xml file
 * 2017/11/19: Worked on writing python code to parse project xml file
+* 2017/11/20: Worked on python code for project
+* 2017/11/21: Worked on python code for project
+* 2017/11/26: Worked on python code for project
+* 2017/11/27: Worked on python code for project
+* 2017/11/28: Worked on python code for project
+* 2017/11/29: Worked on python code for project
+* 2017/11/30: Worked on python code for project
+* 2017/12/01: Worked on python code for project
+* 2017/12/02: Worked on project write-up
+* 2017/12/03: Worked on project write-up
+* 2017/12/04: Worked on project write-up
 # Meetings
 * Attended Online meeting w/ TAs
 * 2017/09/11: Attended Online Meeting discussing LaTex, Jabref, github
@@ -63,3 +74,5 @@
 * 2017/10/23: Attended Online Meeting concerning paper 1 reviews, compiling proceedings locally, and using git config tools
 * 2017/10/30: Attended Online Meeting concerning compiling papers locally, reviewing papers, project proposals
 * 2017/11/20: Attended Online Meeting concerning project
+* 2017/12/02: Attended Online Meeting with TAs and discussed project report and how to write bash script
+* 2017/12/04: Attended Online Meeting and discussed where to put project data and project report
