@@ -19,7 +19,6 @@
   chmod 755 make_install.sh
   sudo ./make_install.sh
   ~~~~
-3. Add xml files to iPhoneData folder from the folder hid312 in the public google drive for i523.
-4. To run the program, execute: `python3 makefile.py`
+3. To run the program, execute: `python3 makefile.py`
 
  
