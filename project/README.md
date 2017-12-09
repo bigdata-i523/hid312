@@ -4,6 +4,7 @@
 
 * This program parses and analyzes multiple data files collected from the Apple Health app on iPhone 6s.
 * It outputs a table with steps per week and day, as well as a time series graph of all steps by date and average steps per day of the week.
+* Note: Test data is included in the iPhoneData folder in the code folder of the download. To analyze different, just replace those files with the exported iPhone Health Data xml files to be analyzed.
 
 # Installation and Run Instructions
 
