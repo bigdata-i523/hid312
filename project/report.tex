@@ -129,7 +129,7 @@ This program utilized the module design of small sub-programs to provide ease of
 
 \subsection{Data}
 
-The test data consisted of xml files exported from the Apple Health App on iPhone 6. To export the data, the export health data option was selected in the app, which compiled as export.zip. This file was then emailed to researcher and the file unzipped as folder named apple\_health\_export. This folder contained two files, export.xml and export\_cda.xml. The export.xml file contained the steps data, and was renamed ``Client1'' and placed in the hid312 folder in the i523 class google drive site \cite{testdata}. 
+The test data consisted of xml files exported from the Apple Health App on iPhone 6. To export the data, the export health data option was selected in the app, which compiled as export.zip. This file was then emailed to researcher and the file unzipped as folder named apple\_health\_export. This folder contained two files, export.xml and export\_cda.xml. The export.xml file contained the steps data, and was renamed ``Client1.xml''. It was then placed in the folder ``iPhoneData'' in the github repository \cite{sourcecode}.
 
 Health data was exported from two devices, which contained a variety of data, but only date/time and step count data were used in this project. The xml files were 5.58 MB and 8.33 MB in size, containing 203 days and 888 days of steps data respectively. Data was also tested from iPhone 8  models, but the program would not parse the files, and thus were excluded from the final test set.
 
@@ -146,16 +146,16 @@ Project development and testing was done in Ubuntu Linux operating system versio
 Program tests were done per instructions found in the README.md file of the project sourcecode \cite{sourcecode}.
 
 \section{Results}
-After executing the program, the output was one txt file and two pdf files for every one input xml file. Thus, for the test data of two xml files, six files were created. All files were generated in the code directory from which makefile.py was ran. 
+After executing the program, the output was one txt file and four pdf files for every one input xml file. Thus, for the test data of two xml files, ten files were created. All files were generated in the code directory from which makefile.py was ran. 
 
-The txt file contained a table with columns of daily steps for each day of the week and rows labelled as the date of the first day of the week, with each week starting on Monday. The file name was determined by where in the order the original xml data was parsed in the program iteration. For example, the output txt file for the first parsed xml file would be named ``Client1.txt''.
+The txt file contained a table with columns of daily steps for each day of the week and rows labelled as the date of the first day of the week, with each week starting on Monday. It also contains the spearman correlation of daily steps with day of the week. The file name was determined by where in the order the original xml data was parsed in the program iteration. For example, the output txt file for the first parsed xml file would be named ``Client1.txt''.
 
 \begin{table*}[htb]
 \caption{Output table of daily steps by day of the week}
-\includegraphics[width=\textwidth]{images/Client1Report.pdf}
+\includegraphics[width=\textwidth]{images/Client1.pdf}
 \end{table*}
 
-The pdf files were graphs of certain descriptive analytics based on the parsed data. The first was a time series line graph of daily step information for the whole time period of the xml file. The second was a bar graph of the mean steps for each day of the week of the whole time period of the dataset. These files were named similarly to the above txt file, with each file named according to its order in the iteration. For example, the first xml file parsed would generate ``Client1StepsByDate.pdf'' for the first graph and ``Client1StepsByDayOfWeek.pdf'' for the second.
+The pdf files were graphs of different analytics and relationships of the parsed data. The first was a time series line graph of daily step information for the whole time period of the xml file. The second was a bar graph of the mean steps for each day of the week of the whole time period of the dataset. The third was a bar graph of the standard deviation of daily steps for each day of the week. The fourth was a scatterplot with points representing number of daily steps on the y axis and the day of the week on the x axis. These files were named similarly to the above txt file, with each file named according to its order in the iteration. For example, the first xml file parsed would generate ``Client1StepsByDate.pdf'' for the first graph and ``Client1MeanStepsByDayOfWeek.pdf'' for the second, ``Client1StDvStepsByDayOfWeek.pdf'' for the third, and ``Client1ScatterplotOfStepsByDayOfWeek.pdf'' for the fouth.
 
 \begin{figure}[htb]
 \includegraphics[width=1.0\columnwidth]{images/Client1StepsByDate.pdf}
@@ -163,11 +163,19 @@ The pdf files were graphs of certain descriptive analytics based on the parsed d
 \end{figure}
 
 \begin{figure}[htb]
-\includegraphics[width=1.0\columnwidth]{images/Client1StepsByDayOfWeek.pdf}
+\includegraphics[width=1.0\columnwidth]{images/Client1MeanStepsByDayOfWeek.pdf}
 \caption{Output graph of mean steps for each day of the week}
 \end{figure}
 
+\begin{figure}[htb]
+\includegraphics[width=1.0\columnwidth]{images/Client1StDevStepsByDayOfWeek.pdf}
+\caption{Output graph of standard deviation of steps for each day of the week}
+\end{figure}
 
+\begin{figure}[htb]
+\includegraphics[width=1.0\columnwidth]{images/Client1ScatterplotOfStepsByDayOfWeek.pdf}
+\caption{Output graph of scatterplot of steps by each day of the week}
+\end{figure}
 
 \section{Discussion}
 
@@ -201,7 +209,7 @@ This project's aim was to develop a prototype passive monitoring program using o
 
 \subsubsection {Depth of analysis}
 
-As seen above, a number of powerful analytic techniques are available for use on big data sets. From traditional inferential statistics, to machine learning, to advanced visualizations, more extensive analytics could provide increased insight from this data. By including another variable, such as reported mood, hours of sleep, etc. machine learning techniques could attempt to identify patterns between the variables. This particular data may especially benefit from exploring patterns at different levels of resolution, attempting to identify patterns in activity based on time, day, week, or month, and pair this with more information rich and refined visualizations. 
+As seen above, a number of powerful analytic techniques are available for use on big data sets. From traditional inferential statistics, to machine learning, to advanced visualizations, more extensive analytics could provide increased insight from this data. This project included a simple spearman correlation to demonstrate how inferential analysis modules can be added to the functions of the program, and thus provide more in-depth insights. By including another variable, such as reported mood, hours of sleep, etc. machine learning techniques could attempt to identify patterns between the variables. This particular data may especially benefit from exploring patterns at different levels of resolution, attempting to identify patterns in activity based on time, day, week, or month, and pair this with more information rich and refined visualizations. 
 
 \subsubsection{Narrow data sources}
 
@@ -237,7 +245,7 @@ This project was able to demonstrate how open-source programs could be paired wi
 This also can be true of mental health providers to consumers. There is a power differential, partly driven by systemic elements of the legal, medical, and mental health, but also driven by the person's need for change. People struggling with mental illness (and everyone else) often are desperate to change some circumstance in their life, and may be willing to give up something to get it. The danger for the mental health provider is to use that take away a freedom from that person for the sake of their greater good. In this context, that would be asking the person to give up their privacy in order that they can receive better services. A time comes when drastic measures may be necessary, such as when a person is a danger to themselves or others. However, if an option to preserve some of their dignity remains, it should be chosen. That is part of the motivation of this project, to provide a way to help people, while preserving their dignity. Sometimes all it takes is to rewrite the script. 
 
 \begin{acks}
-The researcher would like to thank Professor Gregor von Laszewski for his instruction and support for this project, the teaching assistants for their insight and guidance, and the anonymous participant who provided test data.
+The researcher would like to thank Professor Gregor von Laszewski for his instruction and support for this project, the teaching assistants for their insight and guidance, and the anonymous participants who provided test data.
 \end{acks}
 
 \bibliographystyle{ACM-Reference-Format}
