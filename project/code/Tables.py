@@ -59,4 +59,15 @@ def stepsBYweekday (df):
 
     return(df_stepsBYweekday_trans_weeks)
 
+def corr_steps_weekday(df):
+    import pandas as pd
+    # select only date from date/time column and add day of the week column
+    df['date/time'] = pd.to_datetime(df['date/time'].dt.date)
+    df['weekday'] = df['date/time'].dt.dayofweek
+
+    #create dataframe with date, weekday, and daily total steps
+    df = df.groupby(['date/time','weekday'], as_index=False).sum()
+    #finds spearman correlation of daily steps and weekday
+    corr_def = df.corr(method='spearman')
+    return (corr_def)
 
