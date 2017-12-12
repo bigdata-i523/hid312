@@ -141,10 +141,10 @@ After executing the program, the output was one txt file and four pdf files for 
 
 The txt file contained a table with columns of daily steps for each day of the week and rows labelled as the date of the first day of the week, with each week starting on Monday. It also contains the spearman correlation of daily steps with day of the week. The file name was determined by where in the order the original xml data was parsed in the program iteration. For example, the output txt file for the first parsed xml file would be named ``Client1.txt''.
 
-\begin{table*}[htb]
+\begin{table}[htb]
 \caption{Output table of daily steps by day of the week}
-\includegraphics[width=\textwidth]{images/Client1.pdf}
-\end{table*}
+\includegraphics[width=\columnwidth]{images/Client1.pdf}
+\end{table}
 
 The pdf files were graphs of different analytics and relationships of the parsed data. The first was a time series line graph of daily step information for the whole time period of the xml file. The second was a bar graph of the mean steps for each day of the week of the whole time period of the dataset. The third was a bar graph of the standard deviation of daily steps for each day of the week. The fourth was a scatterplot with points representing number of daily steps on the y axis and the day of the week on the x axis. These files were named similarly to the above txt file, with each file named according to its order in the iteration. For example, the first xml file parsed would generate ``Client1StepsByDate.pdf'' for the first graph and ``Client1MeanStepsByDayOfWeek.pdf'' for the second, ``Client1StDvStepsByDayOfWeek.pdf'' for the third, and ``Client1ScatterplotOfStepsByDayOfWeek.pdf'' for the fouth.
 
