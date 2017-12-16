@@ -19,7 +19,6 @@ paper1:
         - 312
     status: Review on 3 Nov 2017
     title: An Overview of Big Data Applications in Mental Health Treatment
-    type: latex
     url: https://github.com/bigdata-i523/hid312/paper1
 paper2:
     review: Nov 6 2017
@@ -38,7 +37,6 @@ paper2:
         - 312
     status: 100%
     title: Big Data Applications in Historical Studies
-    type: latex
     url: https://github.com/bigdata-i523/hid312/paper2
     chapter: Lifestyle
 project:
